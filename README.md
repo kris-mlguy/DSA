@@ -5,3 +5,4 @@
 |--------------------------------------|----------------------------------|---------------------|----------------------|
 | Next greater element (496)           | Brute force                      | O(n*m)              | O(n+m)               |
 | Next greater element (496)           | Monotonic stack                  | O(n)                | O(n+m)               |  
+
