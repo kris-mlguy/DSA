@@ -1,8 +1,8 @@
 # Data structures and algorithmic questions and solutions
 
 
-| **Topic**                            | **Solution type**                | **Time complexity** | **Space complexity** |
-|--------------------------------------|----------------------------------|---------------------|----------------------|
-| Next greater element (496)           | Brute force                      | O(n*m)              | O(n+m)               |
-| Next greater element (496)           | Monotonic stack                  | O(n)                | O(n+m)               |  
-
+| **Topic**                                    | **Solution type**                | **Time complexity** | **Space complexity** |
+|----------------------------------------------|----------------------------------|---------------------|----------------------|
+| Next greater element (496)                   | Brute force                      | O(n*m)              | O(n+m)               |
+| Next greater element (496)                   | Monotonic stack                  | O(n)                | O(n+m)               |  
+| Count substrings start and end with c (3084) | Straight forward approach        | O(n)                | O(1)                 |
