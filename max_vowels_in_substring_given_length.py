@@ -1,7 +1,8 @@
+# Given a string s and an integer k, return the maximum number of vowel letters in any substring of s with length k.
 class Solution(object):
     def maxVowels(self, s, k):
         """
-        Given a string s and an integer k, return the maximum number of vowel letters in any substring of s with length k.
+        Brute force method
         :type s: str
         :type k: int
         :rtype: int
