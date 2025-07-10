@@ -10,5 +10,5 @@
 | Maximum number of vowels in a substring of given length (1456)| Sliding window  | O(n)                |                      |
 | Maximum sum subarray (53)                    | Brute force                      | O(n^2)              | O(1)                 |
 | Maximum sum subarray (53)                    | Sliding window                   | O(n)                | O(1)                 |
-| Transpose matrix (any 2D with m!=n)          | Straight forward approach        | O(m*n)              | O(m*n)               |
-| Transpose matrix (m=n)                       | Straight forward approach        | O(m*n)              | O(1)                 |
+| Transpose matrix, m!=n (867)                 | Straight forward approach        | O(m*n)              | O(m*n)               |
+| Transpose matrix, m=n (867)                  | Straight forward approach        | O(m*n)              | O(1)                 |
