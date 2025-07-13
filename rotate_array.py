@@ -1,6 +1,15 @@
 # Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
 class Solution(object):
-    def rotateInPlaceAlgorithm(self, nums, k):
+    def rotateArray(self, nums, k):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: None Do not return anything, modify nums in-place instead.
+        """
+        n = len(nums)
+        k%=n
+        return nums[n-k:]+nums[:n-k]
+    def rotateInPlace(self, nums, k):
         """
         :type nums: List[int]
         :type k: int
