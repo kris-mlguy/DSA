@@ -25,3 +25,10 @@ class Solution(object):
         reverse(nums,0,n-k-1)
         reverse(nums,n-k,n-1)
         reverse(nums,0,n-1)
+def main():
+    obj = Solution()
+    print(obj.rotateArray([1,2,3,4,5,6],2))
+    print(obj.rotateInPlace([1,2,3,4,5,6],2))
+  
+if __name__ == '__main__':
+    main()
