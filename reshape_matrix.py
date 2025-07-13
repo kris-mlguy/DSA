@@ -23,3 +23,11 @@ class Solution(object):
                 arr[i][j] = tmp[num]
                 num+=1
         return arr
+
+def main():
+    obj = Solution()
+    print(obj.matrixReshape([[1,2],[3,4]],1,4))
+    print(obj.matrixReshape([[1,2],[3,4]],2,4))
+  
+if __name__ == '__main__':
+    main()
