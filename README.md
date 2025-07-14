@@ -12,3 +12,5 @@
 | Maximum sum subarray (53)                    | Sliding window                   | O(n)                | O(1)                 |
 | Transpose matrix, m!=n (867)                 | Straight forward approach        | O(m*n)              | O(m*n)               |
 | Transpose matrix, m=n (867)                  | Straight forward approach        | O(m*n)              | O(1)                 |
+| Two sum equals target                        | Brute force                      |                     |                      | 
+| Two sum equals target                        | Two pointers                     |                     |                      | 
