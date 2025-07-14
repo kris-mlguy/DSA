@@ -10,7 +10,11 @@
 | Maximum number of vowels in a substring of given length (1456)| Sliding window  | O(n)                |                      |
 | Maximum sum subarray (53)                    | Brute force                      | O(n^2)              | O(1)                 |
 | Maximum sum subarray (53)                    | Sliding window                   | O(n)                | O(1)                 |
+| MAximum average subarray of given length     | Sliding window                   | O(n-k)              | O(1)                 | 
 | Transpose matrix, m!=n (867)                 | Straight forward approach        | O(m*n)              | O(m*n)               |
 | Transpose matrix, m=n (867)                  | Straight forward approach        | O(m*n)              | O(1)                 |
+| Rotate array                                 | Straight forward approach        |                     |                      | 
+| Rotate array                                 | In-place                         |                     |                      |
+| Roeshape matrix                              |                                  |                     |                      | 
 | Two sum equals target (167)                  | Brute force                      | O(n^2)              |                      | 
 | Two sum equals target (167)                  | Two pointers                     | O(n)                |                      | 
