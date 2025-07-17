@@ -13,8 +13,8 @@
 |8       | Maximum average subarray of given length     | Sliding window                   | O(n-k)              | O(1)                 | 
 |9       | Transpose matrix, m!=n (867)                 | Straight forward approach        | O(m*n)              | O(m*n)               |
 |10      | Transpose matrix, m=n (867)                  | Straight forward approach        | O(m*n)              | O(1)                 |
-|11      | Rotate array (189)                           | Straight forward approach        |                     |                      | 
-|12      | Rotate array (189)                           | In-place                         |                     |                      |
+|11      | Rotate array (189)                           | Straight forward approach        | O(n)                | O(n)                 | 
+|12      | Rotate array (189)                           | In-place                         | O(n)                | O(1)                 |
 |13      | Reshape matrix (566)                         |                                  |                     |                      | 
 |14      | Two sum equals K (167)                       | Brute force                      | O(n^2)              |                      | 
 |15      | Two sum equals K (167)                       | Two pointers                     | O(n)                |                      |
