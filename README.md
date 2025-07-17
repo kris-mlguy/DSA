@@ -18,7 +18,7 @@
 |13      | Reshape matrix (566)                         |                                  |                     |                      | 
 |14      | Two sum equals K (167)                       | Brute force                      | O(n^2)              |                      | 
 |15      | Two sum equals K (167)                       | Two pointers                     | O(n)                |                      |
-|16      | Subarray sum equals K (560)                  | Brute force                      | O(n^2)              |                      |
-|17      | Subarray sum equals K (560)                  | Prefix sum + sliding window      | O(n)                |                      |
+|16      | Subarray sum equals K (560)                  | Brute force                      | O(n^2)              | O(1)                 |
+|17      | Subarray sum equals K (560)                  | Prefix sum + sliding window      | O(n)                | O(n)                 |
 |18      | Subarray product less than K (713)           | Brute force                      | O(n^2)              |                      |
 |19      | Subarray product less than K (713)           | Two pointers + sliding window    | O(n)                |                      |
