@@ -22,3 +22,4 @@
 |17      | Subarray sum equals K (560)                  | Prefix sum + sliding window      | O(n)                | O(n)                 |
 |18      | Subarray product less than K (713)           | Brute force                      | O(n^2)              |                      |
 |19      | Subarray product less than K (713)           | Two pointers + sliding window    | O(n)                |                      |
+|20      | Sort array (912)                             | Merge sort                       | O(n*logn)           | O(n)                 |
