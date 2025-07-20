@@ -1,5 +1,16 @@
 # Given an array of integers nums, sort the array in ascending order without using the built-in function and return it.
 class Solution(object):
+    def bubbleSortArray(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        n = len(nums)
+        for i in range(n):
+            for j in range(i,n):
+                if nums[i]>nums[j]:
+                    nums[i],nums[j] = nums[j],nums[i]
+        return nums  
     def mergeSortArray(self, nums):
         """
         :type nums: List[int]
@@ -29,4 +40,4 @@ class Solution(object):
                 nums[k] = right_arr[j]
                 j+=1
                 k+=1
-        return nums  
+        return nums 
